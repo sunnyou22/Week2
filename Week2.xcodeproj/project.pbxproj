@@ -13,6 +13,7 @@
 		90311D44287BA394003F8E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90311D42287BA394003F8E82 /* Main.storyboard */; };
 		90311D46287BA395003F8E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90311D45287BA395003F8E82 /* Assets.xcassets */; };
 		90311D49287BA395003F8E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90311D47287BA395003F8E82 /* LaunchScreen.storyboard */; };
+		90311D71287C66F0003F8E82 /* Week2_Mon_Assignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90311D70287C66F0003F8E82 /* Week2_Mon_Assignment.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90311D45287BA395003F8E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90311D48287BA395003F8E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90311D4A287BA395003F8E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90311D70287C66F0003F8E82 /* Week2_Mon_Assignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Week2_Mon_Assignment.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				90311D3E287BA394003F8E82 /* SceneDelegate.swift */,
 				90311D40287BA394003F8E82 /* ViewController.swift */,
 				90311D42287BA394003F8E82 /* Main.storyboard */,
+				90311D70287C66F0003F8E82 /* Week2_Mon_Assignment.storyboard */,
 				90311D45287BA395003F8E82 /* Assets.xcassets */,
 				90311D47287BA395003F8E82 /* LaunchScreen.storyboard */,
 				90311D4A287BA395003F8E82 /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90311D49287BA395003F8E82 /* LaunchScreen.storyboard in Resources */,
+				90311D71287C66F0003F8E82 /* Week2_Mon_Assignment.storyboard in Resources */,
 				90311D46287BA395003F8E82 /* Assets.xcassets in Resources */,
 				90311D44287BA394003F8E82 /* Main.storyboard in Resources */,
 			);
