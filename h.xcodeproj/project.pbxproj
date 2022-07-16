@@ -13,6 +13,8 @@
 		900CE7742880E8FB006A9AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900CE7722880E8FB006A9AC1 /* Main.storyboard */; };
 		900CE7762880E8FC006A9AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900CE7752880E8FC006A9AC1 /* Assets.xcassets */; };
 		900CE7792880E8FC006A9AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900CE7772880E8FC006A9AC1 /* LaunchScreen.storyboard */; };
+		900CE7812880EFD5006A9AC1 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900CE7802880EFD5006A9AC1 /* TransitionViewController.swift */; };
+		900CE78328810C71006A9AC1 /* secondTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900CE78228810C71006A9AC1 /* secondTransitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		900CE7752880E8FC006A9AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900CE7782880E8FC006A9AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900CE77A2880E8FC006A9AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900CE7802880EFD5006A9AC1 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		900CE78228810C71006A9AC1 /* secondTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTransitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				900CE76E2880E8FB006A9AC1 /* SceneDelegate.swift */,
 				900CE7702880E8FB006A9AC1 /* ViewController.swift */,
 				900CE7722880E8FB006A9AC1 /* Main.storyboard */,
+				900CE78228810C71006A9AC1 /* secondTransitionViewController.swift */,
+				900CE7802880EFD5006A9AC1 /* TransitionViewController.swift */,
 				900CE7752880E8FC006A9AC1 /* Assets.xcassets */,
 				900CE7772880E8FC006A9AC1 /* LaunchScreen.storyboard */,
 				900CE77A2880E8FC006A9AC1 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900CE78328810C71006A9AC1 /* secondTransitionViewController.swift in Sources */,
 				900CE7712880E8FB006A9AC1 /* ViewController.swift in Sources */,
 				900CE76D2880E8FB006A9AC1 /* AppDelegate.swift in Sources */,
 				900CE76F2880E8FB006A9AC1 /* SceneDelegate.swift in Sources */,
+				900CE7812880EFD5006A9AC1 /* TransitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
